@@ -63,8 +63,8 @@ mdc: true
 </div>
 
 ---
-transition: fade-out
----
+
+## transition: fade-out
 
 # 什麼是 AI？
 
@@ -127,7 +127,9 @@ h1 {
 -->
 
 ---
+
 ## transition: fade-out
+
 ---
 
 # 什麼是 Agent (代理人)？
@@ -139,7 +141,7 @@ h1 {
 <div class="grid grid-cols-1 gap-4 mt-6">
 <div v-click>
 
-## Agent (代理人)
+## Agent
 
 <div class="flex items-start gap-4 my-4">
   <div class="text-3xl"><carbon-bot /></div>
@@ -155,7 +157,7 @@ h1 {
 
 <div v-click>
 
-## Proxy (代理伺服器)
+## Proxy
 
 <div class="flex items-start gap-4 my-4">
   <div class="text-3xl"><carbon-delivery /></div>
@@ -180,8 +182,6 @@ h1 {
 <div>
 <span class="text-2xl font-medium text-teal-600 dark:text-teal-400">Agent vs. Proxy</span>
 </div>
-
-
 
 <div v-click>
 
@@ -208,7 +208,6 @@ h1 {
 </div>
 </div>
 
-
 <style>
 h1 {
   background-color: #2B90B6;
@@ -224,3 +223,129 @@ h1 {
 <!--
 這頁介紹Agent的概念，並對比Proxy更加被動的特性，通過圖示直觀地表現兩者區別
 -->
+
+---
+## transition: fade-out
+---
+
+# 什麼是 AI Agent？
+
+<div class="grid grid-cols-1 gap-4 mt-6">
+
+<div v-click>
+
+  <div>
+  <span class="text-2xl font-medium text-teal-600 dark:text-teal-400">定義：</span>
+  </div>
+
+  <div class="flex items-start gap-4 my-4">
+    <div class="text-3xl"><carbon-machine-learning-model /></div>
+    <div>
+      是 Agent 的一種形式，但其核心決策能力由<span class="text-purple-500 font-bold">人工智慧</span>來賦予。它不僅能感知和行動，更能運用 AI 的智慧來進行更複雜的<span class="text-purple-500 font-bold">思考</span>、<span class="text-purple-500 font-bold">學習</span>、<span class="text-purple-500 font-bold">規劃</span>與<span class="text-purple-500 font-bold">決策</span>，以更有效或智慧的方式達成目標。
+      <div class="pl-4 mt-2 text-sm opacity-75">
+        <carbon-arrow-right class="inline" /> 可以理解為：Agent 的<strong>執行力</strong> 結合了 AI 的<strong>智慧決策力</strong>。
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<div v-click>
+
+
+  <div>
+  <span class="text-2xl font-medium text-teal-600 dark:text-teal-400">從簡單到複雜的 Agent / AI Agent 演進：</span>
+  </div>
+
+<div class="grid grid-cols-3 gap-4 mt-4">
+  <div class="border border-gray-200 dark:border-gray-700 p-3 rounded-lg">
+    <div class="flex justify-center">
+      <carbon-temperature-hot class="text-4xl text-orange-400" />
+    </div>
+    <div class="mt-2 font-bold text-center mb-2">簡單 Agent</div>
+    <div class="text-sm">
+      <strong>恆溫器：</strong><br/>
+      <div class="grid grid-cols-5 gap-1 mt-2">
+        <div class="col-span-1 text-cyan-500"><carbon-view /></div>
+        <div class="col-span-4">偵測室內溫度</div>
+        <div class="col-span-1 text-amber-500"><carbon-Task-asset-view /></div>
+        <div class="col-span-4">基於規則的簡單決策</div>
+        <div class="col-span-1 text-green-500"><carbon-run /></div>
+        <div class="col-span-4">控制空調開關</div>
+      </div>
+    </div>
+  </div>  
+
+
+  <div class="border border-gray-200 dark:border-gray-700 p-3 rounded-lg">
+    <div class="flex justify-center">
+      <carbon-email class="text-4xl text-blue-400" />
+    </div>
+    <div class="mt-2 font-bold text-center mb-2">模型增強型 Agent</div>
+    <div class="text-sm">
+      <strong>智能垃圾郵件篩選器：</strong><br/>
+      <div class="grid grid-cols-5 gap-1 mt-2">
+        <div class="col-span-1 text-cyan-500"><carbon-view /></div>
+        <div class="col-span-4">讀取郵件內容、發送者等</div>
+        <div class="col-span-1 text-amber-500"><carbon-machine-learning /></div>
+        <div class="col-span-4">運用ML模型判斷郵件類型</div>
+        <div class="col-span-1 text-green-500"><carbon-run /></div>
+        <div class="col-span-4">移至收件匣或垃圾郵件夾</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="border border-gray-200 dark:border-gray-700 p-3 rounded-lg">
+    <div class="flex justify-center">
+      <carbon-car class="text-4xl text-green-400" />
+    </div>
+    <div class="mt-2 font-bold text-center mb-2">高級 AI Agent</div>
+    <div class="text-sm">
+      <strong>特斯拉自動駕駛：</strong><br/>
+      <div class="grid grid-cols-5 gap-1 mt-2">
+        <div class="col-span-1 text-cyan-500"><carbon-view /></div>
+        <div class="col-span-4">多感測器實時觀察複雜環境</div>
+        <div class="col-span-1 text-amber-500"><carbon-ai-status /></div>
+        <div class="col-span-4">基於複雜AI模型做實時決策</div>
+        <div class="col-span-1 text-green-500"><carbon-run /></div>
+        <div class="col-span-4">精確控制油門、煞車、方向盤</div>
+      </div>
+    </div>
+  </div>  
+</div>  
+
+</div>
+
+---
+## transition: fade-out
+---
+
+# 什麼是 AI Agent？
+
+
+<div v-click>
+
+  <div class="mt-6">
+  <span class="text-2xl font-medium text-teal-600 dark:text-teal-400">生活中的例子：</span>
+  </div>
+
+  <div style="height: 100px;"></div>
+
+  <div class="grid grid-cols-2 gap-8 mt-4">
+    <div class="flex items-center gap-4">
+      <carbon-voice-activate class="text-4xl text-blue-400" />
+      <div>
+        <div class="font-bold">智慧語音助理</div>
+        <div class="text-sm">Siri, Hey Google, 小愛同學</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <carbon-home class="text-4xl text-green-400" />
+      <div>
+        <div class="font-IoT-connect">智能家居中心</div>
+        <div class="text-sm">Google Nest, Amazon Echo</div>
+      </div>
+    </div>
+  </div>
+</div>
