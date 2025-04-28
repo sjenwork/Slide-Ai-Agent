@@ -14,7 +14,7 @@ class: text-center
 drawings:
   persist: false
 # 幻燈片過渡效果
-transition: fade-out
+transition: slide-left
 # 啟用MDC語法
 mdc: true
 ---
@@ -37,9 +37,8 @@ mdc: true
   </a>
 </div>
 
-<!--
--->
-
+---
+transition: fade-out
 ---
 
 # 內容涵蓋
@@ -62,9 +61,20 @@ mdc: true
 </div>
 </div>
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 ---
-
-## transition: fade-out
+transition: fade-out
+---
 
 # 什麼是 AI？
 
@@ -127,9 +137,7 @@ h1 {
 -->
 
 ---
-
-## transition: fade-out
-
+transition: fade-out
 ---
 
 # 什麼是 Agent (代理人)？
@@ -173,8 +181,20 @@ h1 {
 
 </div>
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
-## transition: fade-out
+transition: fade-out
 ---
 
 # 什麼是 Agent (代理人)？
@@ -225,7 +245,7 @@ h1 {
 -->
 
 ---
-## transition: fade-out
+transition: fade-out
 ---
 
 # 什麼是 AI Agent？
@@ -317,8 +337,19 @@ h1 {
 
 </div>
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 ---
-## transition: fade-out
+transition: fade-out
 ---
 
 # 什麼是 AI Agent？
@@ -330,22 +361,470 @@ h1 {
   <span class="text-2xl font-medium text-teal-600 dark:text-teal-400">生活中的例子：</span>
   </div>
 
-  <div style="height: 100px;"></div>
+  <div style="height: 40px;"></div> <!-- 減少空白高度以容納更多項目 -->
 
   <div class="grid grid-cols-2 gap-8 mt-4">
     <div class="flex items-center gap-4">
       <carbon-voice-activate class="text-4xl text-blue-400" />
       <div>
         <div class="font-bold">智慧語音助理</div>
-        <div class="text-sm">Siri, Hey Google, 小愛同學</div>
+        <div class="text-sm">Siri, Google Assistant, Alexa</div>
       </div>
     </div>
     <div class="flex items-center gap-4">
-      <carbon-home class="text-4xl text-green-400" />
+      <carbon-clean class="text-4xl text-orange-400" /> <!-- 使用清潔圖標 -->
       <div>
-        <div class="font-IoT-connect">智能家居中心</div>
-        <div class="text-sm">Google Nest, Amazon Echo</div>
+        <div class="font-bold">掃地機器人</div>
+        <div class="text-sm">iRobot Roomba, Roborock</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <carbon-iot-connect class="text-4xl text-red-400" /> <!-- 使用恆溫器圖標 -->
+      <div>
+        <div class="font-bold">智慧恆溫器</div>
+        <div class="text-sm">Google Nest Thermostat</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <carbon-camera-action class="text-4xl text-purple-400" /> <!-- 使用相機或安全圖標 -->
+      <div>
+        <div class="font-bold">智慧安防攝影機</div>
+        <div class="text-sm">偵測異常活動、人臉辨識</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-4">
+      <carbon-light class="text-4xl text-yellow-400" />
+      <div>
+        <div class="font-bold">智慧照明</div>
+        <div class="text-sm">根據情境或時間自動調整</div>
       </div>
     </div>
   </div>
 </div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
+transition: fade-out
+---
+
+# 2025： AI Agent 元年？ 與 LLMs 發展有關？
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+<div v-click>
+
+<div>
+<span class="text-2xl font-medium text-teal-600 dark:text-teal-400">核心驅動力：</span>
+</div>
+
+<div class="flex items-start gap-4 my-2">
+  <div class="text-3xl"><carbon-growth /></div>
+  <div>
+    AI Agent 概念由來已久，為何直到近年才備受矚目？<br/>
+    關鍵在於「<span class="text-yellow-500 font-bold">AI 能力的巨大躍升</span>」，特別是 <span class="text-yellow-500 font-bold">大型語言模型 (LLMs)</span> 的突破性進展。
+  </div>
+</div>
+
+</div>
+
+<div v-click>
+
+<div>
+<span class="text-2xl font-medium text-teal-600 dark:text-teal-400">AI 發展里程碑：</span>
+</div>
+
+<div class="relative mt-2 ml-10">
+  <!-- 垂直時間線 -->
+  <div class="absolute w-1 h-full bg-gray-300 left-0"></div>
+  
+  <!-- 時間線項目 -->
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-gray-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-gray-500">2010-2015</div>
+    <div class="col-span-9">
+      <div><strong>深度學習突破</strong>：CNN圖像、RNN序列</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-blue-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-gray-500">2016</div>
+    <div class="col-span-9">
+      <div><strong>特定領域的巔峰</strong>：AlphaGo - 在圍棋領域展現超人智慧</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-purple-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-blue-500 font-medium">2017</div>
+    <div class="col-span-9">
+      <div><strong class="text-purple-500">Transformer 架構</strong>：奠定現代 LLMs 基礎</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-blue-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-gray-500">2018</div>
+    <div class="col-span-9">
+      <div><strong>BERT</strong>：自然語言理解的重要模型</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-purple-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-blue-500 font-medium">2018-現在</div>
+    <div class="col-span-9">
+      <div><strong class="text-purple-500">GPT 系列</strong>：強大的自然語言生成與理解能力</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-purple-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-blue-500 font-medium">2022</div>
+    <div class="col-span-9">
+      <div><strong class="text-purple-500">ChatGPT</strong>：將強大 LLMs 推向大眾，引爆 AIGC 熱潮</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative mb-2">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-green-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-green-500 font-medium">近期</div>
+    <div class="col-span-9">
+      <div><strong class="text-green-500">多模態模型</strong>：整合文字、圖像、聲音等不同感官</div>
+    </div>
+  </div>
+  
+  <div class="grid grid-cols-12 gap-2 relative">
+    <div class="col-span-1 flex justify-center">
+      <div class="w-4 h-4 rounded-full bg-green-500 mt-1 z-10"></div>
+    </div>
+    <div class="col-span-2 text-right pr-4 text-sm text-green-500 font-medium">當前</div>
+    <div class="col-span-9">
+      <div><strong class="text-green-500">Agent 框架與應用</strong>：將 LLMs 的智慧應用於實際任務執行</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!--
+這頁展示了AI發展的關鍵里程碑，特別強調LLMs的突破如何推動了AI Agent技術的爆發
+-->
+
+---
+transition: fade-out
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 理解與生成
+
+<div class="grid grid-cols-1 gap-4 mt-2">
+  
+  <!-- Text Description Section -->
+  <div class="flex items-start gap-4 my-4">
+    <div class="text-3xl text-blue-500"><carbon-text-link-analysis /></div>
+    <div>
+      <div class="font-bold text-blue-500">強大的「理解」與「生成」能力</div>
+      <ul class="mt-6 space-y-2">
+        <li>理解人類的自然語言指令與意圖</li>
+        <li>看懂圖片、聽懂聲音（透過多模態能力）</li>
+        <li>生成連貫、有邏輯的文字、程式碼等內容</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Image Section - Arranged Horizontally -->
+  <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase1.png" alt="ai僅能處理文字" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">早期：僅能處理文字</div>
+    </div>
+    </div>
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase2.png" alt="ai可理解多模態輸入" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">中期：多模態 llms，理解圖像、聲音等多種輸入</div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+<!--
+這頁詳述了LLMs為AI Agent帶來的五大關鍵能力，這些能力共同使AI Agent能夠達到前所未有的智能水平
+-->
+
+
+---
+transition: fade-out
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 推理與規劃
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div class="flex items-start gap-4 my-4">
+  <div class="text-3xl text-amber-500"><carbon-user-role /></div>
+  <div>
+    <div class="font-bold text-amber-500">「推理」與「規劃」能力</div>
+    <ul class="mt-6 space-y-2">
+      <li>展現更深度的思考與分段推理過程（如 Chain-of-Thought, COT）</li>
+      <li>對複雜問題進行拆解，規劃執行步驟</li>
+      <li>展現初步的通用推理能力</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 與外界互動
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div class="flex items-start gap-4 my-4">
+  <div class="text-3xl text-green-500"><carbon-tool-box /></div>
+  <div>
+    <div class="font-bold text-green-500">「與外界互動」能力</div>
+    <ul class="mt-6 space-y-2">
+      <li>不再僅限於文字交流，能呼叫外部工具、API或系統</li>
+      <li>獲取實時資訊或執行特定動作（透過 <strong>Function Calling / Tool Use</strong>）</li>
+      <li>例如：上網搜尋、設定提醒、發送郵件、操作軟體</li>
+    </ul>
+  </div>
+
+
+  </div>
+
+  <!-- Image Section - Arranged Horizontally -->
+  <div class="grid grid-cols-1 gap-8 items-start justify-items-center mx-auto">
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase3.png" alt="藉由 Function Calling (Tool Use)，AI可以呼叫外部工具" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">藉由 Function Calling (Tool Use)，AI可以呼叫外部工具</div>
+    </div>
+    </div>
+
+
+</div>
+
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 知識運用
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div class="flex items-start gap-4 my-4">
+  <div class="text-3xl text-purple-500"><carbon-data-base /></div>
+  <div>
+    <div class="font-bold text-purple-500">「知識運用」能力</div>
+    <ul class="mt-6 space-y-2">
+      <li>利用其龐大的訓練知識庫進行回應（GPT）</li>
+      <li>結合外部即時或專業知識庫，提供更精準的回應</li>
+      <li>透過 <strong>RAG - Retrieval-Augmented Generation</strong> 減少幻覺</li>
+    </ul>
+  </div>
+</div>
+
+  <!-- Image Section - Arranged Horizontally -->
+  <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase4-1.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">回答不存在的答案，產生幻覺</div>
+    </div>
+    </div>
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase4-2.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">提供正確知識，減少幻覺(RAG)</div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 整合與溝通能力
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div class="flex items-start gap-4 my-4">
+  <div class="text-3xl text-purple-500"><carbon-data-base /></div>
+  <div>
+    <div class="font-bold text-purple-500">整合與外界溝通的能力</div>
+    <ul class="mt-6 space-y-2">
+      <li>不同 LLM 有各自的function calling。</li>
+      <li>n8n：建立轉接器，整合與外界溝通</li>
+      <li>MCP：制定標準協議，讓 LLM 能夠整合 function calling 的規格與外界溝通</li>
+    </ul>
+  </div>
+</div>
+
+  <!-- Image Section - Arranged Horizontally -->
+  <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase5.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">回答不存在的答案，產生幻覺</div>
+    </div>
+    </div>
+    <div v-click>
+    <div class="text-center">
+      <img src="./images/ai-phase6.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
+      <div class="text-sm mt-2 text-gray-300">提供正確知識，減少幻覺(RAG)</div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+background: #2B90B6;
+---
+
+# LLMs 為 AI Agent 帶來的關鍵能力 - 協作
+
+<div class="grid grid-cols-1 gap-2 mt-2">
+
+<div class="flex items-start gap-4 my-4">
+  <div class="text-3xl text-rose-500"><carbon-partnership /></div>
+  <div>
+    <div class="font-bold text-rose-500">「協作」潛力 (Agent to Agent, A2A)</div>
+    <ul class="mt-6 space-y-2">
+      <li>不同的 Agent 之間可以溝通、協調、分派任務</li>
+      <li>共同完成複雜目標（<strong>多 Agent 系統溝通 / Agent 協同</strong>）</li>
+      <li>需要 Agent 能理解彼此的意圖和狀態</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+layouts: center
+---
+
+# End
+
+
