@@ -572,13 +572,13 @@ transition: fade-out
   <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase1.png" alt="ai僅能處理文字" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase1.png" alt="ai僅能處理文字" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">早期：僅能處理文字</div>
     </div>
     </div>
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase2.png" alt="ai可理解多模態輸入" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase2.png" alt="ai可理解多模態輸入" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">中期：多模態 llms，理解圖像、聲音等多種輸入</div>
     </div>
     </div>
@@ -663,7 +663,7 @@ transition: fade-out
   <div class="grid grid-cols-1 gap-8 items-start justify-items-center mx-auto">
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase3.png" alt="藉由 Function Calling (Tool Use)，AI可以呼叫外部工具" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase3.png" alt="藉由 Function Calling (Tool Use)，AI可以呼叫外部工具" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">藉由 Function Calling (Tool Use)，AI可以呼叫外部工具</div>
     </div>
     </div>
@@ -709,13 +709,13 @@ transition: fade-out
   <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase4-1.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase4-1.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">回答不存在的答案，產生幻覺</div>
     </div>
     </div>
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase4-2.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase4-2.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">提供正確知識，減少幻覺(RAG)</div>
     </div>
     </div>
@@ -759,13 +759,13 @@ transition: fade-out
   <div class="grid grid-cols-2 gap-8 items-start justify-items-center mx-auto">
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase5.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase5.png" alt="回答不存在的答案，產生幻覺" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">回答不存在的答案，產生幻覺</div>
     </div>
     </div>
     <div v-click>
     <div class="text-center">
-      <img src="./images/ai-phase6.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
+      <img src="./images/AI-phase6.png" alt="提供正確知識，減少幻覺(RAG)" class="mx-auto h-52 rounded-full shadow-md" />
       <div class="text-sm mt-2 text-gray-300">提供正確知識，減少幻覺(RAG)</div>
     </div>
     </div>
